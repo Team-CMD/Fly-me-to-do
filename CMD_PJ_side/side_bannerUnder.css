@@ -1,0 +1,51 @@
+
+.bannerUnder{
+    display: flex;
+    border: solid 1px red;
+    height: 50px;
+    padding: 0 15px;
+
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: black;
+
+    background-color:#f9f9f9;
+    border-bottom: solid 1px #ddd;
+
+}
+.bannerUnderLink1{
+    padding: 5px 5px;
+    width: 51.528px;
+    height: 21px;
+    color: black;
+}
+.bannerUnderLink2{
+    padding: 5px 5px;
+    width: 51.528px;
+    height: 21px;
+    margin-left: 14px;
+    color: black;
+}
+.bannerUnderSideRaffle{
+    margin-left: 1215.220px;
+    width: 305.722px;
+    height: 21px;
+}
+.bannerUnderRaffleP{
+    
+}
+.raffleLink{
+    margin-left: 10px;
+    color: #0078ff;
+}
+.raffleLink::after{
+    content: "|";
+    align-items: center;
+    color:rgb(184, 184, 184);
+    margin: 0 10px;
+    font-size: 12px;
+}
+.brandLink{
+    color: black;
+}

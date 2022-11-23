@@ -1,0 +1,25 @@
+.asideMenu{
+    width: 270px;
+    height: 1220px;
+    padding-bottom: 5px;
+
+    border: solid 1px red;
+}
+.asideSubject{
+
+}
+.asideBrand{
+
+}
+#navTableList{
+    width: 240px;
+    height: 1171px;
+    margin-top: 8px;
+    margin-left: 15px;
+
+
+    border: solid 1px red;
+}
+.navMenu{
+
+}

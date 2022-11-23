@@ -1,0 +1,52 @@
+.mainArea{
+    display: block;
+
+    position: absolute;
+    left: 272px;
+    top: 254px;
+
+    width: 1417px;
+    height: 3792.670px;
+
+    border-left: solid 1px #ddd;
+
+    border: solid 1px red;
+}
+.mainAreaContents{
+    width: 1402px;
+    height: 600px;
+
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border-bottom: solid 1px #ddd;
+    border: solid 1px red;
+}
+.mainRankCategory{
+
+}
+
+
+
+.mainSideRanking{
+    
+    border: solid 1px red;
+}
+
+
+
+.mainContents{
+
+}
+.rankingItemBlock{
+    list-style: none;
+}
+.numRank{
+
+}
+.rankingItemImg{
+    position: absolute;
+    left: 27px;
+    top: 30px;
+}

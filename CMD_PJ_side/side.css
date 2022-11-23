@@ -1,0 +1,173 @@
+@font-face {font-family: "Apple SD Gothic Neo"; 
+            src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot"); 
+            src: url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.eot?#iefix") 
+                format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff2") 
+                format("woff2"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.woff") 
+                format("woff"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.ttf") 
+                format("truetype"), url("//db.onlinewebfonts.com/t/67680f2eb947c5cbd58b40961b4a61e9.svg#Apple SD Gothic Neo") 
+                format("svg"); 
+            }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Apple SD Gothic Neo"; 
+}
+header{
+
+}
+.topBanner{
+    width: 1688px;
+    height: 70px;
+    overflow: hidden;                
+    background-image: url(top_h1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    border: solid 1px red;
+}
+
+#contents{
+    width: 1688px;
+    height: 180px;
+    border: solid 1px red;
+}
+/*메뉴 전체*/
+
+.mainBanner{
+    width: 1688px;
+    height: 32px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    background-color: black;
+    border: solid 1px red;
+}
+
+.mainMiniBanner{
+    width: 1688px;
+    height: 32px;/*수정필요*/
+    border: solid 1px red;
+}
+
+#logo{ 
+    width: 140px;
+    height: 23px;
+    background-image: url(./logo.png);
+    margin-left: 20px;
+    margin-top: 3px;
+    background-size: cover;
+    float: left;
+    border: solid 1px red;
+}
+
+#searchBarRanking{
+    width: 491px;
+    height: 32px;
+    border: solid 1px red;
+}
+
+.searchBar{
+    width: 260px;
+    height: 32px;
+    margin-left: 179px;
+    background-color: white;
+    border: solid 1px red;
+}
+
+#searchForm{
+    visibility: hidden;
+}
+
+#searchInput{
+    visibility: hidden;
+}
+/*.searchbar-text{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-size: 10px;
+    color: black;
+}*/
+/*#block{
+    position: relative; 
+    top: 0px;
+    left: 19px;
+    width: 260px;
+    height: 32px;
+    border: solid 1px red
+}*/
+#searchCameraButton{
+    display: inline-block;
+    border: solid 1px red;
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    position: absolute;
+    left: 375px;
+    top: 97px;
+    
+}
+
+.searchCameraButtonIconImg{
+    position: absolute;
+    left: 0px;
+    top: 2px;
+}
+
+#searchButton{
+    display: inline-block;
+    border: solid 1px red;
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+    position: absolute;
+    left: 409px;
+    top: 97px;
+}
+
+#searchButtonIcon{
+
+}
+#topRanking{
+    display: inline-block;
+    border: solid 1px red;
+    width: 217px;
+    height: 32px;
+    margin-left: 14px;
+    position: absolute;
+    left: 439px;
+    top: 97px;
+}
+.topBannerMenu{            
+    
+    float: right;
+    border: solid 1px red;
+    width: 784.9px;
+    height: 44px;
+    margin-right: 33px;
+    position: absolute;
+    left: 870.1px;
+    top: 91px;
+}
+.topBannerMenuUl{
+    float: left;
+    list-style: none;
+}
+.topBannerMenuUl li{
+    display: list-item;
+    list-style: none;
+    line-height: 14px;
+    
+    font-size: 18px;
+    font-weight: bold;
+
+    float: left;
+    position: relative;
+
+    padding: 15px 9px;
+}
+a{
+    text-decoration-line: none;
+}

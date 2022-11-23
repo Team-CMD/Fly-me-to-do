@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <!--사이드-->
+    <nav>
+        <!--로고-->
+        <div class="logoBox">
+            <div class="logoBackColor">
+                
+                <div class="logo">
+                    <p>FlyMe<br>toDo</p>
+                </div>
+            </div>
+        </div>
+
+        <!--사이드메뉴-->
+        <div class="menuNav">
+            <div class="menu1">
+                <!--script 내려오게-->
+                <img src="/mainhome/img/타원 1.png">
+            </div>
+            <div class="menu2">
+                <!--script 내려오게-->
+                <img src="/mainhome/img/타원 1.png">
+            </div>
+            <div class="menu3">
+                <!--script 내려오게-->
+                <img src="/mainhome/img/타원 1.png">
+            </div>
+        </div>
+    </nav>
+    <!--메인-->
+    <section>
+        
+        <div class="mainBox">
+            <div class="leftMenu">
+                <div class="mainName">
+                    <img src="/mainhome/img/닉네임.png">
+                </div>
+                <div class="monthBtn">
+                    <ul id="monthBtnTop">
+                        <li>
+                            <div class="btn1">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn2">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn3">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn4">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn5">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn6">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                    </ul>
+                    <ul id="monthBtnBottom">
+                        <li>
+                            <div class="btn7">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn8">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn9">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn10">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn11">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="btn12">
+                                <img src="/mainhome/img/monthlyIcon.png">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="line"></div>
+                <div id="line2"></div>
+
+                <div class="teamBox">
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                        <div class="item"></div>
+                </div>
+            </div>  
+            
+            <div class="rightMenu">
+                <div class="weekly">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                    <img src="/mainhome/img/닉네임.png">
+                </div>
+
+            </div>
+            <div class="wrapper">
+                <div class="calendar">
+                    <div class="yearMonth"></div>
+                    <div class="calendarNav">
+                        <button class="calendarNavBtn goPrev">&lt;</button>
+                        <button class="calendarNavBtn goToday">Today</button>
+                        <button class="calendarNavBtn goNext">&gt;</button>
+                    </div>
+                </div>
+                <div class="calendarMain">
+                    <div class="dates"></div>
+                </div>
+                   
+                <div class='calendarWrap'>
+                    <div class="header">
+                        <div class="btn prevDay"></div> 
+                        <h2 class='dateTitle'></h2>
+                        <div class="btn nextDay"></div>
+                    </div>
+
+                    <div class="grid dateBoard"></div>
+                </div>
+                    <script src="calendar.js"></script>
+            </div>
+            <script src="calendar.js"></script>
+        </div>
+    </section>
+    <aside class="date">
+
+    </aside>
+    <aside class="todo">
+        <div id="todoText">   
+            <p>TO-DO</p>
+        </div>
+        <img src="/mainhome/img/todo삼각형.png">
+    </aside>
+    <aside class="todoUnder">
+    </aside>
+</body>
+</html>
